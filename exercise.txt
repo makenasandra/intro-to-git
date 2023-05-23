@@ -1,0 +1,28 @@
+Git init - Start a git repository
+Create an empty folder and initialize it as a Git repository.
+
+Add file to the staging area
+Inside the folder you created before add a file called README.md, modify it by writing this text. Save it.
+
+## Hello GIT
+Verify the status of the repository with the git status command.
+Add the file to the staging area with the git add command.
+Verify the status of the repository again.
+
+Create a commit
+Inside the repo you created before:
+
+Create an index.html file and add this code block:
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello GIT</title>
+    </head>
+    <body>
+
+    </body>
+</html>
+Add the file to the staging area using the git add command.
+Save the changes and commit them using git commit -m
+Look at the history of commits with git log
